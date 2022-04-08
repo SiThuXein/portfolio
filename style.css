@@ -1,0 +1,456 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+#nav-bar{
+    height:980px;
+    background: #4c4c4c;
+    display: none;
+}
+#nav-bar img{
+    margin-left: 92.5%;
+    margin-top: 60px;
+}
+#nav-bar #link{
+    width:800px;
+    height:100px;
+    background: #5a5a5a;
+    margin:3% 0 0 30%;
+}
+#nav-bar a{
+    text-decoration: none;
+}
+#nav-bar h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color:orange;
+    padding-top: 25px;
+}
+#nav-bar h1:hover{
+    color:#000;
+    letter-spacing: 5px;
+}
+
+
+
+
+/* container-1 */
+
+#container_1{
+    height:1000px;
+    /* background : rgb(223, 215, 215); */
+    background: rgb(236, 229, 229);
+
+}
+#container_1 #social{
+    height: 300px;
+    margin-top: 20%;
+    position: fixed;
+}
+
+ #social div{
+    /* background: green; */
+    width:50px;
+    margin-top: 10px;
+}
+#social #app_1 img:hover{
+    transform: translateX(+20px);
+ }
+ #social #app_2 img:hover{
+     transform: translateX(+20px);
+  }
+  #social #app_3 img:hover{
+     transform: translateX(+20px);
+  }
+
+#container_1 #me_img{
+    margin: 40% 0 0 30%;
+    border-radius: 100%;
+}
+#container_1 #title{
+    letter-spacing: 5px;
+}
+#container_1 #title_name{
+    margin-top: 45%;
+}
+#container_1 #btn{
+    color:#000;
+}
+#container_1 h1{
+    font-size: 1.5rem;
+    color:#000;
+    margin-left: 40%;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 span{
+    font-size: 1.5rem;
+    color:rgb(199, 140, 31);
+}
+#container_1 h2{
+    font-size: 0.8rem;
+    color:green;
+    margin-left: 40%;
+    font-family: default;    
+}
+#container_1 button{
+    color:#000;
+    font-size: 15px;
+    margin-top: 10%;
+    margin-left: 40%;
+    animation-name: drop;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+#container_1 #ani_1{
+    animation-name: left;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+ 
+}
+#container_1 #ani_2{
+    animation-name: right;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+ 
+}
+#container_1 #ani_3{
+    animation-name: left;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+ 
+}
+#container_1 #ani_4{
+    animation-name: right;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+ 
+}
+
+#nav{
+    background:#b6abab;
+    position: fixed;
+    width:300px;
+    height: 200px;
+    /* border-top-left-radius:100px; */
+    border-bottom-left-radius: 100%;
+    /* font-size: 1.5rem; */
+}
+#nav img{
+    margin-left: 50%;
+    margin-top:50px;
+}
+
+/* container-1 */
+  
+ 
+/* container-2 */
+
+    #container_2{
+        height: 1000px;
+        /* background:linear-gradient(to right,#e1e1fd,#d4d4f5);  */
+        background: rgb(230, 222, 222);
+    }
+    #container_2 h1,h2{
+        font-family: sans-serif;
+        color:#000;
+        font-size: 2rem;
+    }
+    #container_2 h6{
+        font-size:1rem;
+    }
+
+   #img img{
+      margin-left: 40%;
+      border-radius: 100%;
+      /* animation-name: drop;
+      animation-duration: 10s;
+      animation-iteration-count: 1; */
+
+   }
+   #text{
+       padding-top:50px;
+   }
+   /* input[type=range]{
+      width:80%;
+   } */
+   #range_1{
+       width:80%;
+      height: 10px; 
+   }
+  
+   #edu{
+       animation-name: right;
+       animation-duration: 3s;
+       animation-iteration-count: 1;
+   }
+   #ski{
+    animation-name: right;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+  /* container-2 */
+
+  /* container-3 */
+
+  #container_3{
+    height:1000px;
+    /* background : rgb(223, 215, 215); */
+    background: rgb(236, 229, 229);
+    /* margin:0 auto; */   
+
+}
+
+    #container_3 h1{
+        font-size: 2rem;
+        font-family: sans-serif;
+    }
+    #fi_row{
+        padding-top: 6%;
+        /* color:rgb(199, 140, 31); */
+    }
+    #se_row{
+        padding-top: 3%;
+        /* color:rgb(199, 140, 31); */
+        font-weight: bolder;
+    }
+    #th_row{
+        /* background: #000; */
+        padding-top: 20px;
+        /* color:rgb(199, 140, 31); */
+    }
+    #th_row h6{
+        display: inline-block;
+        text-align:center;
+    }
+    #th_row span{
+        color:green;
+    }
+    #th_row span:hover{
+        letter-spacing: 5px;
+    }
+    #th_row a img{
+        margin-right: 15px;
+    }
+    #th_row a{
+        text-decoration: none;
+    }
+    #th_row #app{
+        display: none;
+    }
+    
+
+/* container-3 */
+
+
+
+  @keyframes drop{
+    0%{
+        opacity:0;
+        transform:translateY(-50px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0px);
+    }
+}
+@keyframes right{
+    0%{
+        opacity: 0;
+        transform: translateX(+300px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes left{
+    0%{
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+  @keyframes rotate{
+      0%{
+          transform: rotate(0deg);
+      }
+      100%{
+          transform: rotate(360deg);
+      }
+  }
+
+@media only screen and (max-width:750px){
+    *{
+        font-size: 1rem;
+    }
+    #container_1{
+        height: 900px;
+        /* padding-bottom: 280px; */
+    }
+    #container_1 #social{
+        display: none;
+    }
+    #container_1 #title_name{
+        margin-top: 5%;
+        padding-top: 10px;
+        transform: translateY(+400px);
+    }
+    #container_1 h1{
+        /* padding-top:50px; */
+        font-size:1rem;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+    #container_1 h1 span{
+        font-size: 1rem;
+    }
+    #container_1 h2{
+        margin-left: 5%;
+        
+    }
+    #btn{
+        transform: translateY(+420px);
+    }
+    #container_1 button{
+        margin-left: 5%;
+    }
+   #img{
+    transform: translateY(-180px);
+   }
+    #container_1 #me_img{
+        display: block;
+        margin:27% 0 5% 23%;
+        width:200px;
+        height: 200px;
+    }
+   
+    #container_2{
+        height: auto;
+    }
+    #container_2 h2{
+        font-size: 1.5rem;
+    }
+    #container_2 h5{
+        font-size: 1rem;
+    }
+    #container_3{
+        height: auto;
+    }
+   
+    #nav{
+        display: none;
+    }
+    #img img{
+        display: none;
+       
+    }
+    #text{
+        padding-top:0;
+    }
+
+    #form{
+        margin-left:0;
+    }
+    #fi_row{
+        padding-top:15%;
+    }
+    #th_row{
+        padding-bottom: 20px;
+        
+    }
+    #th_row img{
+        margin-top: 5px;
+        margin-left:12%;
+    }
+    #th_row #app{
+        display: block;
+    }
+    #th_row h6{
+        display: block;
+    }
+    #th_row span:hover{
+        letter-spacing: 2px;
+    }
+    #hr{
+        margin-top:5%;
+    }
+    #ski{
+        padding-top: 40px;
+    }
+}
+@media only screen and (max-height:850px){
+    #container_1{
+        height: 820px;
+    }
+
+ 
+}
+
+@media only screen and (min-width:701px) and (max-width:900px){
+    #social{
+        transform: translateY(+200px);
+    }
+    #container_1{
+        height: 1050px;
+    }
+    #container_1 #me_img{
+        /* margin:25% 0 5% 23%; */
+        margin:0 0 0 25%;
+    }
+    #container_1 #img{
+        transform: translateY(-400px);
+    }
+    #title{
+        transform: translateY(+300px);
+    }
+    #container_1 #title_name{
+        margin:40% 0 0 0;
+    }
+    #container_1 h1{
+        margin-left: 15%;
+    }
+    #container_1 h2{
+        margin-left: 15%;
+    }
+    #container_1 button{
+        margin-left: 15%;
+    }
+    #nav {
+        display: none;
+    }
+    #img img{
+        margin-left:30px;
+        width: 300px;
+        height: 300px;
+     }
+     #edu{
+         padding-left: 50px;
+     }
+}
+
+@media only screen and (min-width:901px) and (max-width:1100px){
+   #nav{
+       display:none !important;
+   }
+    #container_1{
+        height: 1400px;
+    }
+    #container_1 #web_img{
+        margin:25% 0 5% 32%;
+      
+    }
+    #img img{
+        margin-left:15%;
+        width: 300px;
+        height: 300px;
+     }
+     #nav span{
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="icon" type="image/png" href="image/male.png">
+    <title>PORFOLIO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav -->
+
+    <div class="container-fluid" id="nav-bar">
+        <div class="row">
+            <div class="col-lg-12 text-right">
+                <div>
+                    <img src="image/close_icon (1).png" alt="" width="50px" height="50px" onclick="change_page()">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col text-center">
+                    <div id="link">
+                        <a href="#container_1" onclick="change_page()"><h1>HOME</h1></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col">
+                    <div id="link">
+                        <a href="#container_2" onclick="change_page()"><h1>ABOUT</h1></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col">
+                    <div id="link">
+                        <a href="#container_3" onclick="change_page()"><h1>CONTACT</h1></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col">
+                    <div id="link">
+                        <a href="#container_1" onclick="change_page()"><h1>PROJECTS</h1></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- nav -->
+
+   <!-- container-1 -->
+   <div id="page">
+
+    <div class="container-fluid" id="container_1" id="scroll">
+        
+        <div class="row">
+            <div class="col-lg-1" id="social">
+             
+                <div id="app_1">
+                    <a href="https://www.facebook.com/profile.php?id=100021256112422" >
+                        <img src="image/facebook.png" alt="" width="50px" height="50px">
+                    </a>
+                </div>
+                <div id="app_2">
+                    <a href="https://www.instagram.com/s.t.hein/">
+                        <img src="image/instagram.png" alt="" width="50px" height="50px">
+    
+                    </a>
+                </div>
+                <div id="app_3">
+                    <a href="">
+                        <img src="image/twitter.png" alt="" width="50px" height="50px">
+                    </a>
+                </div>   
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12" id="title">
+                <div id="title_name">
+                    <h1 id="ani_1">Hi,</h1>
+                    <h1 id="ani_2">I'm <span>< Si Thu Hein  ></Si></span></h1>
+                    <h1 id="ani_3">Junior Web Developer</h1>
+                    <h2 id="ani_4"># Front End / Back End </h2>
+                    
+                </div>
+                <div  id="btn">
+                    <a href="#form"><button type="button" class="btn btn-warning"  >Contact Me</button></a>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12" id="img">
+                <!-- <img src="image/web.jpg" alt="" width="400px" height="350px" id="web_img"> -->
+                <img src="image/cartoon.jpg" alt="" width="350px" height="350px" id="me_img">
+                
+            </div>
+            <div class="col-lg-1" >
+                <div id="nav">
+                    <img src="image/menu_lines_icon.png" alt="" width="60px" height="60px" onclick="change_nav()">
+                </div>
+
+            </div>
+        </div>
+   
+    </div>
+
+   <!-- container-1 -->
+
+    <!-- container-2  -->
+
+   <div class="container-fluid" id="container_2" >
+    <div class="row pt-5 text-center" id="about">
+       <div class="col-md-12 col-sm-12">
+        <h1>ABOUT ME</h1>
+        <span style="color:rgb(199, 140, 31)">-------------</span>
+       </div>
+    </div>
+    <div class="row  pb-5" id="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 pt-5" id="img">
+           <img src="image/icon.jpg" alt="" width="350px" height="350px">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 text-primary" id="text">
+            <h2>Focus</h2>
+        </div>
+    </div>
+   
+    <!-- <hr style="width:50%;margin-left: 23%;height:3px;color:rgb(199, 140, 31)"> -->
+    <div class="row pt-3 pb-5">
+        <div class="col-lg-2 col-md-0"></div>
+        <div class="col-lg-4 col-md-6 col-sm-12"  id="edu">
+            <h2>Education</h2><br><br>
+            <h6><span>&#10148;</span> Certificate of Professional Web Developer(Fairway Technology)</h6><br>
+            <h6><span>&#10148;</span> Diploma in Web Development(KMD)</h6>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12"  id="ski">
+            <h2>Skills</h2><br><br>
+            
+            <label for="" >HTML</label>
+            <div class="progress" id="range_1">
+                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 75%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+            </div><br>
+
+           <label for="" >CSS</label>
+           <div class="progress" id="range_1">
+                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+            </div><br>
+
+            <label for="" >PHP</label>
+            <div class="progress" id="range_1">
+                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+            </div><br>
+
+            <label for="">Javascript</label>
+            <div class="progress" id="range_1">
+                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 10%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+            </div>
+        
+        </div>
+        <div class="col-lg-2 col-md-0 col-sm-12"></div>
+    </div>
+
+   
+
+</div>
+
+
+  <!-- container-2 -->
+
+    <!-- container-3 -->
+
+    <div class="container-fluid" id="container_3">
+        <div class="row" id="fi_row">
+            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                <h1>CONTACT</h1>
+        <span style="color:rgb(199, 140, 31)">-------------</span>
+            </div>
+        </div>
+        <div class="row" id="se_row">
+            <div class="col-lg-4 col-md-2"></div>
+            <div class="col-lg-4 col-md-8 col-sm-12" id="form">
+                <form class="form-group" action="mail.php" method="post" id="contact-form">
+                    <label for="" class="form-label h5" >Email</label>
+                    <input type="email" class="form-control" name="email" required autocomplete="off" id="input1"><br>                   
+                    <label for="" class="form-label h5">Subject</label>
+                    <input type="text" class="form-control" name="subject" required autocomplete="off" id="input2"><br>
+                    <label for="" class="form-label h5">Message</label>
+                    <textarea name="message" cols="30" rows="10" class="form-control" required autocomplete="off" id="input3"></textarea><br>
+                    <button type="submit" name="btn" class="btn btn-warning" onclick="show_alert()">Send</button>
+                </form>
+            </div>
+            <div class="col-lg-4 col-md-2"></div>
+        </div>
+        <hr style="width:70%;height:3px;color:rgb(199, 140, 31);margin-top: 7%;margin-left: 15%;">
+      
+         <div class="row" id="th_row">
+                <!-- <div class="col-lg-3 col-md-2 col-sm-12"></div> -->
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <h6>Copyright  <span>&copy;</span>2021.All right Reserved.</h6>
+                    <h6>Designed by <span>Si Thu Hein<span></span></h6>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12" id="app">
+                    <a href="https://www.facebook.com/profile.php?id=100021256112422" >
+                        <img src="image/facebook.png" alt="" width="50px" height="50px">
+                    </a>
+                    <a href="https://www.instagram.com/s.t.hein/">
+                        <img src="image/instagram.png" alt="" width="50px" height="50px">
+
+                    </a>
+                    <img src="image/twitter.png" alt="" width="50px" height="50px">
+                </div>
+        </div>
+    </div>
+
+  <!-- container-3 -->
+
+</div>
+
+                
+
+</body>
+
+
+<script type="text/javascript">
+    function change_nav(){
+        document.getElementById("nav-bar").style.display = "block";
+        document.getElementById("page").style.display = "none";
+
+    }
+    function change_page(){
+        document.getElementById("nav-bar").style.display = "none";
+        document.getElementById("page").style.display = "block";
+
+    }
+ 
+    function show_alert(){
+        var input1 = document.getElementById("input1").value;
+        var input2 = document.getElementById("input2").value;
+        var input3 = document.getElementById("input3").value;
+      
+        if((input1!="") && (input2!="") && (input3!="")){
+            swal({
+                text: "Email has been sent!",
+                icon: "success",
+                button: "OK",
+            });
+        }
+    }
+
+
+    // function show_alert(){
+
+    //     if(document.getElementsByClassName('form-group').hasClass('has-error')){
+    //         window.alert("error");
+    //     }
+          
+    // }
+
+
+
+ 
+
+</script> 
+
+</html>
