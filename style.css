@@ -74,9 +74,19 @@ body{
 #container_1 #title_name{
     margin-top: 45%;
 }
-#container_1 #btn{
-    color:#000;
+#container_1 #btn #contact{
+    float:left;
+    margin:8% 0 0 40%;
+
 }
+
+#container_1 #btn #cv{
+    float:left;
+    margin:8% 0 0 3%;
+
+}
+
+
 #container_1 h1{
     font-size: 1.5rem;
     color:#000;
@@ -97,10 +107,18 @@ h1 span{
 #container_1 button{
     color:#000;
     font-size: 15px;
-    margin-top: 10%;
-    margin-left: 40%;
+    /* margin:5% 0 0 40%; */
+    width:120px;
+  
+}
+#container_1 #contact{
     animation-name: drop;
     animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+#container_1 #cv{
+    animation-name: drop;
+    animation-duration: 15s;
     animation-iteration-count: 1;
 }
 #container_1 #ani_1{
@@ -142,6 +160,7 @@ h1 span{
     margin-top:50px;
 }
 
+
 /* container-1 */
   
  
@@ -155,7 +174,12 @@ h1 span{
     #container_2 h1,h2{
         font-family: sans-serif;
         color:#000;
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+    #container_2 h4{
+        font-size: 1.2rem;
+        color:#000;
+        text-align: justify;
     }
     #container_2 h6{
         font-size:1rem;
@@ -204,7 +228,7 @@ h1 span{
 }
 
     #container_3 h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-family: sans-serif;
     }
     #fi_row{
@@ -216,34 +240,55 @@ h1 span{
         /* color:rgb(199, 140, 31); */
         font-weight: bolder;
     }
-    #th_row{
-        /* background: #000; */
-        padding-top: 20px;
-        /* color:rgb(199, 140, 31); */
+    #se_row #map{
+        margin: 4% 0 0 4%;
+        width:500px;
+        height: 350px;
     }
-    #th_row h6{
-        display: inline-block;
-        text-align:center;
-    }
-    #th_row span{
-        color:green;
-    }
-    #th_row span:hover{
-        letter-spacing: 5px;
-    }
-    #th_row a img{
-        margin-right: 15px;
-    }
-    #th_row a{
-        text-decoration: none;
-    }
-    #th_row #app{
-        display: none;
-    }
+ 
     
 
 /* container-3 */
 
+/* container-4 */
+
+#container_4{
+    background: rgb(230, 222, 222);
+    height: 960px;
+
+}
+#container_4 h1{
+    font-size: 1.5rem; 
+    font-family: sans-serif;
+}
+#c4-th{
+    /* background: #000; */
+    /* margin-top: 10px; */
+    /* margin-top: 23%; */
+    /* color:rgb(199, 140, 31); */
+}
+#c4-th h6{
+    display: inline-block;
+    text-align:center;
+    margin-bottom: 2%;
+}
+#c4-thspan{
+    color:green;
+}
+#c4-th span:hover{
+    letter-spacing: 5px;
+}
+#c4-th a img{
+    margin-right: 15px;
+}
+#c4-th a{
+    text-decoration: none;
+}
+#c4-th #app{
+    display: none;
+}
+
+/* container-4 */
 
 
   @keyframes drop{
@@ -278,9 +323,11 @@ h1 span{
 }
   @keyframes rotate{
       0%{
+        opacity: 0;
           transform: rotate(0deg);
       }
       100%{
+        opacity: 1;
           transform: rotate(360deg);
       }
   }
@@ -317,8 +364,16 @@ h1 span{
     #btn{
         transform: translateY(+420px);
     }
-    #container_1 button{
+    /* #container_1 #cv{
         margin-left: 5%;
+    } */
+    #container_1 #btn #contact{
+        float: left;
+        margin-left:0;
+    }
+    #container_1 #btn #cv{
+        float: left;
+        margin-left:3%;
     }
    #img{
     transform: translateY(-180px);
@@ -360,6 +415,10 @@ h1 span{
     #fi_row{
         padding-top:15%;
     }
+    #se_row #map{
+        width:350px;
+        height: auto;
+    }
     #th_row{
         padding-bottom: 20px;
         
@@ -368,6 +427,14 @@ h1 span{
         margin-top: 5px;
         margin-left:12%;
     }
+    /* #th_row #span{
+        display: inline-block;
+        margin-top: 15px;
+    }
+    #th_row #span span{
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    } */
     #th_row #app{
         display: block;
     }

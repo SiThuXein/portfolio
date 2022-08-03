@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link  rel="icon" type="image/png" href="image/male.png">
-    <title>PORFOLIO</title>
+    <title>PORTFOLIO</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -45,7 +45,7 @@
             <div class="row text-center">
                 <div class="col">
                     <div id="link">
-                        <a href="#container_1" onclick="change_page()"><h1>PROJECTS</h1></a>
+                        <a href="#container_4" onclick="change_page()"><h1>PROJECTS</h1></a>
                     </div>
                 </div>
             </div>
@@ -85,11 +85,18 @@
                     <h1 id="ani_1">Hi,</h1>
                     <h1 id="ani_2">I'm <span>< Si Thu Hein  ></Si></span></h1>
                     <h1 id="ani_3">Junior Web Developer</h1>
-                    <h2 id="ani_4"># Front End / Back End </h2>
+                    <h2 id="ani_4">#  Back-End </h2>
                     
                 </div>
                 <div  id="btn">
-                    <a href="#form"><button type="button" class="btn btn-warning"  >Contact Me</button></a>
+                    <div id="contact">
+                        <a href="#container_3" ><button type="button" class="btn btn-warning"  >Contact Me</button></a>
+                    </div>
+                    <div id="cv">
+                        <a href="https://drive.google.com/uc?export=download&id=1lM23uJISaBgpvEnrss5HbS54ayRRZVWo" >
+                            <button type="button" class="btn btn-warning"  >Download CV</button>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12" id="img">
@@ -112,18 +119,28 @@
     <!-- container-2  -->
 
    <div class="container-fluid" id="container_2" >
-    <div class="row pt-5 text-center" id="about">
-       <div class="col-md-12 col-sm-12">
-        <h1>ABOUT ME</h1>
-        <span style="color:rgb(199, 140, 31)">-------------</span>
+    <div class="row pt-5 text-left" id="about">
+        <div class="col-lg-2 col-md-0"></div>
+       <div class="col-md-10 col-sm-12">
+            <h1>BIO  <img src="image/down-arrow.png" alt=""></h1>
+        <!-- <span style="color:rgb(199, 140, 31)">-------------</span> -->
        </div>
     </div>
     <div class="row  pb-5" id="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 pt-5" id="img">
+        <!-- <div class="col-lg-6 col-md-6 col-sm-12 pt-5" id="img">
            <img src="image/icon.jpg" alt="" width="350px" height="350px">
-        </div>
+        </div> -->
+        <div class="col-lg-2 col-md-0"></div>
+
         <div class="col-lg-6 col-md-6 col-sm-12 text-primary" id="text">
-            <h2>Focus</h2>
+            <h4>My name is Si Thu Hein and I am a back-end Developer, 
+                currently living in Yangon. I have Diploma of Web Development from 
+                KMD Institute and Diploma of Programming from KBTC University, and my primary focus and 
+                inspiration for my studies is Web Development. 
+                In my free time, I study new techonologies about Web Development.
+                I am both driven and self-motivated, and I am constantly experimenting with new technologies and techniques.
+                I am very passionate about Web Development, and strive to better myself as a developer, 
+                and the development community as a whole.</h4>
         </div>
     </div>
    
@@ -131,12 +148,13 @@
     <div class="row pt-3 pb-5">
         <div class="col-lg-2 col-md-0"></div>
         <div class="col-lg-4 col-md-6 col-sm-12"  id="edu">
-            <h2>Education</h2><br><br>
-            <h6><span>&#10148;</span> Certificate of Professional Web Developer(Fairway Technology)</h6><br>
-            <h6><span>&#10148;</span> Diploma in Web Development(KMD)</h6>
+            <h2>Education  <img src="image/down-arrow.png" alt=""></h2><br><br>
+            <h6><span>&#10148;</span> Diploma in Web Development(KMD)</h6><br>
+            <h6><span>&#10148;</span> Diploma in Programming(KBTC University)</h6></br>
+            <h6><span>&#10148;</span> Certificate of Professional Web Developer(Fairway Technology)</h6>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12"  id="ski">
-            <h2>Skills</h2><br><br>
+            <h2>Skills  <img src="image/down-arrow.png" alt=""></h2><br><br>
             
             <label for="" >HTML</label>
             <div class="progress" id="range_1">
@@ -177,13 +195,14 @@
 
     <div class="container-fluid" id="container_3">
         <div class="row" id="fi_row">
-            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                <h1>CONTACT</h1>
-        <span style="color:rgb(199, 140, 31)">-------------</span>
+            <div class="col-lg-2 col-md-2"></div>
+            <div class="col-lg-10 col-md-12 col-sm-12">
+                <h1>CONTACT  <img src="image/down-arrow.png" alt=""></h1>
+        <!-- <span style="color:rgb(199, 140, 31)">-------------</span> -->
             </div>
         </div>
         <div class="row" id="se_row">
-            <div class="col-lg-4 col-md-2"></div>
+            <div class="col-lg-2 col-md-2"></div>
             <div class="col-lg-4 col-md-8 col-sm-12" id="form">
                 <form class="form-group" action="mail.php" method="post" id="contact-form">
                     <label for="" class="form-label h5" >Email</label>
@@ -195,11 +214,50 @@
                     <button type="submit" name="btn" class="btn btn-warning" onclick="show_alert()">Send</button>
                 </form>
             </div>
-            <div class="col-lg-4 col-md-2"></div>
+            <div class="col-lg-4 col-md-2 bg-secondary" id="map">
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3809.1726463723376!2d97.02476681538714!3d17.
+                    30721720966661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c3a92046c67493%3A0xefe6ae7e8b3949ac!
+                    2sKyaikto!5e0!3m2!1sen!2smm!4v1652725227046!5m2!1sen!2smm" width="100%" height="100%" style="border:0;" 
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d401.46333806172385!2d96.1315238062163!3d16.807272599494787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x30c1eb3876db9905%3A0x706914179e549b55!2sPa%20Thein%20St%2C%20Yangon!3m2!1d16.8072992!2d96.1311607!4m0!5e0!3m2!1sen!2smm!4v1655645202686!5m2!1sen!2smm" 
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d488799.48744642665!2d95.90137422091155!3d16.838952485542254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1949e223e196b%3A0x56fbd271f8080bb4!2sYangon%2C%20Myanmar%20(Burma)!5e0!3m2!1sen!2sus!4v1658881024163!5m2!1sen!2sus"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>       
+            </div>
+            <div class="col-lg-2"></div>
         </div>
-        <hr style="width:70%;height:3px;color:rgb(199, 140, 31);margin-top: 7%;margin-left: 15%;">
       
-         <div class="row" id="th_row">
+    
+    </div>
+
+  <!-- container-3 -->
+
+  <!-- container 4 -->
+
+<div class="container-fluid" id="container_4">
+    <div class="row" id="fi_row">
+            <div class="col-lg-2 col-md-2"></div>
+            <div class="col-lg-10 col-md-12 col-sm-12">
+                <h1>PROJECTS  <img src="image/down-arrow.png" alt=""></h1>
+            </div>
+    </div>
+   <div class="row" id="c4-sec">
+   <div class="col-lg-2 col-md-2"></div>
+    <div class="col-lg-10 col-md-12 col-sm-12 mt-5">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <!-- <h5 class="card-title">Card title</h5> -->
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div class="card-body">
+                <a href="#" class="card-link">Direct Link</a>
+            </div>
+        </div>
+    </div>
+   </div>
+    <hr style="width:70%;height:3px;color:rgb(199, 140, 31);margin-top: 26%;margin-left: 15%;">
+    <div class="row" id="c4-th">
                 <!-- <div class="col-lg-3 col-md-2 col-sm-12"></div> -->
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                     <h6>Copyright  <span>&copy;</span>2021.All right Reserved.</h6>
@@ -207,18 +265,19 @@
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12" id="app">
                     <a href="https://www.facebook.com/profile.php?id=100021256112422" >
-                        <img src="image/facebook.png" alt="" width="50px" height="50px">
+                        <img src="image/facebook.png" alt="" width="50px" height="50px" alt="FACEBOOK">
                     </a>
                     <a href="https://www.instagram.com/s.t.hein/">
-                        <img src="image/instagram.png" alt="" width="50px" height="50px">
+                        <img src="image/instagram.png" alt="" width="50px" height="50px" alt="INSTAGRAM">
 
                     </a>
-                    <img src="image/twitter.png" alt="" width="50px" height="50px">
+                    <img src="image/twitter.png" alt="" width="50px" height="50px" alt="TWITTER">
                 </div>
-        </div>
+         
+    </div>
     </div>
 
-  <!-- container-3 -->
+  <!-- container 4 -->
 
 </div>
 
