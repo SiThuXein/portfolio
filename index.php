@@ -245,18 +245,20 @@
    <div class="col-lg-2 col-md-2"></div>
     <div class="col-lg-10 col-md-12 col-sm-12 mt-5">
         <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="image/ss1.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <!-- <h5 class="card-title">Card title</h5> -->
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">
+                    Computer Part Shopping Website
+                </p>
             </div>
             <div class="card-body">
-                <a href="#" class="card-link">Direct Link</a>
+                <a href="http://comart.infinityfreeapp.com/" class="card-link">Direct Link</a>
             </div>
         </div>
     </div>
    </div>
-    <hr style="width:70%;height:3px;color:rgb(199, 140, 31);margin-top: 26%;margin-left: 15%;">
+    <hr style="width:70%;height:3px;color:rgb(199, 140, 31);margin-top: 25%;margin-left: 15%;">
     <div class="row" id="c4-th">
                 <!-- <div class="col-lg-3 col-md-2 col-sm-12"></div> -->
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
